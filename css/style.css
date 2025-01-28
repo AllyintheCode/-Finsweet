@@ -4,3 +4,153 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+html,
+body {
+  font-family: Roboto;
+}
+
+.container {
+  margin: auto;
+  width: 1750px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links .link {
+  margin: 5px 0 0 32px;
+  color: #1D2130;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.7s;
+}
+
+.links {
+  display: flex;
+  margin: 24px 0 24px 0;
+}
+
+.logo img {
+  margin: 18px 0 21.65px 0;
+}
+
+
+.links .link::after {
+  display: block;
+  content: "";
+  width: 0%;
+  border-radius: 30px;
+  margin-top: 2px;
+  margin-inline: auto;
+  height: 3px;
+  background-color: #000;
+  transition: 0.5s;
+}
+
+.links .link:hover::after {
+  width: 65%;
+}
+
+.links .Tf-btn {
+  margin: 0 0 0 30px;
+  border-radius: 16px;
+  padding: 16px 40px;
+  font-weight: 700;
+  font-size: 16px;
+  width: 144px;
+  height: 56px;
+  display: inline-block;
+  color: #fff;
+  background-color: #1D2130;
+  transition: 0.7s;
+  border: #1D2130 1px solid;
+}
+
+.links .Tf-btn:hover {
+  background-color: #fff;
+  color: #1D2130;
+}
+
+.sc-part1 h1 {
+  width: 768px;
+  height: 124px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 61.6px;
+  color: #1D2130;
+  text-align: center;
+}
+
+.sc-part1 p {
+  width: 768px;
+  height: 54px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #1D2130;
+  text-align: center;
+  margin: 32px 0 48px 0;
+}
+
+.form {
+  position: relative;
+  margin: 0 0 64px 0;
+}
+
+.form input {
+  width: 576px;
+  height: 72px;
+  border-radius: 20px;
+  color: #fff;
+  border: 1px solid grey;
+}
+
+.form ::placeholder {
+  font-size: 20px;
+  display: inline-block;
+  padding: 24px 0 24px 24px;
+}
+
+.form a {
+  position: absolute;
+  width: 176px;
+  height: 56px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  padding: 16px 40px;
+  background-color: #1D2130;
+  color: #fff;
+  border-radius: 12px;
+  left: 393px;
+  top: 8px;
+  transition: 0.7s;
+  border: 1px solid #1D2130;
+
+}
+
+.form a:hover {
+  background-color: #fff;
+  color: #1D2130;
+}
+
+.sc-part1 {
+  background-image: url(../image/Blur\ Gradient.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  margin: 96px 0 0 0;
+  margin-inline: auto;
+}
