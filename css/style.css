@@ -15,7 +15,7 @@ body {
   font-family: Roboto;
 }
 
-.container {
+header .container {
   margin: auto;
   width: 1750px;
   display: flex;
@@ -152,5 +152,36 @@ body {
   justify-content: center;
   align-items: center;
   margin: 96px 0 0 0;
+  margin-inline: auto;
+}
+
+.sc-part2 h3 {
+  background: -webkit-linear-gradient(53.94deg, #373FFF 15.02%, #3ACAF8 82.83%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 133px;
+  height: 29px;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+
+.sc-part2 h2 {
+  width: 579px;
+  height: 116px;
+  font-weight: 700;
+  font-size: 48px;
+  color: #1D2130;
+  line-height: 57.6px;
+  text-align: center;
+  margin: 24px 0 48px 0;
+}
+
+.sc-part2 .title {
+  justify-content: center;
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 128.43px 0 0 0;
   margin-inline: auto;
 }
