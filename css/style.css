@@ -108,7 +108,6 @@ header .container {
   width: 576px;
   height: 72px;
   border-radius: 20px;
-  color: #fff;
   border: 1px solid grey;
 }
 
@@ -230,4 +229,67 @@ header .container {
   margin: 90px 0 68px 0;
   width: 362px;
   height: 216px;
+}
+
+.sc-part4 h3 {
+  background: -webkit-linear-gradient(53.94deg, #373FFF 15.02%, #3ACAF8 82.83%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.8px;
+}
+
+.sc-part4 h2 {
+  width: 576px;
+  height: 116px;
+  font-weight: 700;
+  font-size: 48px;
+  color: #1D2130;
+  line-height: 57.6px;
+  margin: 24px 0 32px 0;
+}
+
+.sc-part4 p {
+  width: 576px;
+  height: 72px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1D2130;
+}
+
+.descraption1 {
+  margin: 0 0 0 81px;
+}
+
+.descraption2 {
+  padding: 13px 0 0 0;
+  display: flex;
+}
+
+.descraption2 p {
+  width: 504px;
+  height: 60px;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0px 0 0 24px;
+  padding: 6px 0 0 0;
+}
+
+.descraption2 img {
+  width: 48px;
+  height: 48px;
+}
+
+.sc-part4 {
+  gap: 110px;
+  display: flex;
+  margin: 128px 0 0 200px;
+}
+
+.sc-part4 .main-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
 }
