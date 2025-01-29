@@ -422,3 +422,55 @@ header .container {
 .sc-part7 .descraption2 h3 {
   margin: 0 0 0 23px;
 }
+
+.sc-part8 h2 {
+  display: flex;
+  font-weight: 700;
+  font-size: 48px;
+  justify-content: center;
+  margin: 0 0 48px 0;
+}
+
+.sc-part8 h3 {
+  width: 339px;
+  height: 86px;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.sc-part8 p {
+  width: 339px;
+  height: 81px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.sc-part8 .box {
+  padding: 0 20px 0 0;
+  width: 339px;
+  height: 263px;
+  border-right: 1px solid #CDC7D2;
+  margin: 64px 0 0 0;
+}
+
+.sc-part8 .box5 {
+  padding: 0 20px 0 0;
+  width: 339px;
+  height: 263px;
+  margin: 64px 0 0 0;
+}
+
+.sc-part8 img {
+  width: 56px;
+  height: 56px;
+}
+
+.sc-part8 .main-boxs {
+  width: 1280px;
+  height: 391px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #D798E126;
+  border-radius: 24px;
+  margin: auto;
+}
